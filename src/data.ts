@@ -76,7 +76,7 @@ export const projects: Project[] = [
 ];
 
 export const inventory = [
-  { title: 'languages', items: ['Python', 'Java', 'C / C++', 'JavaScript', 'SQL'] },
+  { title: 'languages', items: ['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript','SQL'] },
   { title: 'tools', items: ['Git', 'AWS', 'VS Code', 'React', 'Claude Code'] },
   { title: 'coursework', items: ['Data Structures and Algorithms', 'Database Management Systems', 'Foundations of Computer Science', 'Web Systems', 'Software Engineering'] },
 ]
