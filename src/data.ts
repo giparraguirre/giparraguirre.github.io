@@ -9,7 +9,7 @@ export const profile = {
     'Aspiring software engineer passionate about problem-solving and building practical applications. Looking for opportunities to gain hands-on experience, learn from others, and grow as an engineer.',
   interests: 'software engineering · fintech · ai & emerging technologies',
   status: 'open to internships and new-grad roles',
-  domain: '[your-domain]',
+  domain: 'giparraguirre.github.io',
 }
 
 export type Project = {
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     icon: 'grid',
   },
   {
-    id: '02_project',
+    id: '02_search_engine',
     title: 'Search Engine',
     description: 'A scalable search engine over a Wikipedia crawl. Uses MapReduce to build an inverted index, sharded Flask index servers for tf-idf and PageRank ranking, and a web UI with LLM-generated summaries.',
     tags: ['Python', 'Flask', 'MapReduce'],
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     icon: 'search',
   },
   {
-    id: '03_project',
+    id: '03_mapreduce',
     title: 'MapReduce',
     description: 'A fault-tolerant, multithreaded MapReduce framework in Python. A Manager distributes map and reduce tasks to Workers over TCP, with UDP heartbeats and automatic recovery from Worker failures.',
     tags: ['Python', 'Multithreading', 'Distributed Systems'],
@@ -76,9 +76,9 @@ export const projects: Project[] = [
 ];
 
 export const inventory = [
-  { title: 'languages', items: ['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript','SQL'] },
-  { title: 'tools', items: ['Git', 'AWS', 'VS Code', 'React', 'Claude Code'] },
-  { title: 'coursework', items: ['Data Structures and Algorithms', 'Database Management Systems', 'Foundations of Computer Science', 'Web Systems', 'Software Engineering'] },
+  { title: 'languages', items: ['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript', 'SQL'] },
+  { title: 'tools', items: ['Git', 'Flask', 'React', 'AWS', 'VS Code', 'Claude Code'] },
+  { title: 'coursework', items: ['Data Structures and Algorithms', 'Web Systems', 'Database Management Systems', 'Software Engineering', 'Intro to Computer Organization', 'Foundations of Computer Science'] },
 ]
 
 export const links = [
