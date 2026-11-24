@@ -1,0 +1,66 @@
+/** 48x48 head-and-shoulders sprite. One string per row, one char per pixel. '.' is transparent. */
+export const PALETTE: Record<string, string> = {
+  // hair
+  H: '#1b1210', m: '#2e1f18', h: '#5a3d2d',
+  // skin
+  S: '#dfa97c', l: '#ecc09a', s: '#b8805a', d: '#94603f', R: '#e0906c',
+  // face details
+  K: '#1b0f0a', B: '#4a2a1a', I: '#7a4a2c', P: '#ffffff', O: '#2a1812', W: '#f2f6ff', M: '#8a3c3c', L: '#c4665f',
+  // jacket
+  J: '#243b7a', j: '#1a2c5e', E: '#3e6aa8', q: '#2d4690',
+  // shirt
+  C: '#f2f6ff', c: '#c9d5ee',
+  // tie
+  T: '#ff7a93', t: '#d4546f', p: '#ff9db0',
+}
+
+export const SPRITE: string[] = [
+  '.......................OO.......................',
+  '...................OOOOHHOOOO...................',
+  '..................OHHhhmHHhHHO..................',
+  '................OOHHhhhmmHhhHHOO................',
+  '...............OHhmHHhhmmHhhmmHHO...............',
+  '..............OHhhmmHhhhmHhhmmHhHO..............',
+  '..............OHhhhmHHhhmHhhmHhhHO..............',
+  '.............OHHHhhhmHhhmHhhmHhHHHO.............',
+  '............OHmmHHhhmHhhmHhmHHhHmmHO............',
+  '............OHhhmHHhhmHhmHhmHhHmmHHO............',
+  '............OhhHHmmHhmHHmhHmhHHmHhhO............',
+  '...........OHHHhhHmmhHHhmhHHhHmHhhHHO...........',
+  '...........OHmmHHhHHHhSSSSmhHmHhhHmHO...........',
+  '...........OHHmmmHHSSSSSSSSSSHhHHmmHO...........',
+  '...........OHHHHHHSSSSSSSSSSSSHmmHHHO...........',
+  '...........OHHHHSSSSSSSSSSSSSSSSHHHHO...........',
+  '...........OHHmSSHHHSSSSSSSSHHHSSHHHO...........',
+  '...........OmmHSSSHHHHSSSSHHHHSSSmmmO...........',
+  '...........OHOHSSSSSSSSSSSSSSSSSSHOHO...........',
+  '...........OHOSSSSSKKSSSSSSKKSSSSsOHO...........',
+  '...........OSsSSSSKPIKSSSSKPIKSSSssSO...........',
+  '...........OSsSSSSKIIKSdSSKIIKSSSssSO...........',
+  '...........OSsSSSSSKKSSdSSSKKSSSSssSO...........',
+  '...........OSsSSSSSSSSSdSSSSSSSSSssSO...........',
+  '...........OSsSSSSSSSSSdSSSSSSSSSssSO...........',
+  '...........OssSSSSSSSSdddSSSSSSSSsssO...........',
+  '............OOOSSSSSSSSSSSSSSSSSsOOO............',
+  '..............OSSSSMWWWWWWWWMSSSsO..............',
+  '...............OSSSSMMMMMMMMSSSsO...............',
+  '...............OSSSSSSMMMMSSSSSsO...............',
+  '................OSSSSSSSSSSSSSsO................',
+  '.................OssSSSSSSSSssO.................',
+  '..................OOssSSSSssOO..................',
+  '.................OOOssssssssOOO.................',
+  '................OccCssssssssCccO................',
+  '...............OOOcCCssssssCCcOOO...............',
+  '..............OjJEEcCCCssCCCcEEJjO..............',
+  '...........OOOEEjJEcCCttttCCcEJjEEOOO...........',
+  '........OOOEEEEJjJJEcCpTTTCcEJJjJEEEEOOO........',
+  '......OOEEEEJJJJJjJEcCpTTTCcEJjJJJJJEEEEOO......',
+  '...OOOEEEEJJJJJJJjJJEcttttcEJJjJJJJJJJEEEEOOO...',
+  '..OjjEEJJJJJJJJJJJjJEcpTTtcEJjJJJJJJjjjjjEEjjO..',
+  '..OjjJJJqJJJqJJJqJjJJEpTTtEJJjJJqJJJqjjjqjjjjO..',
+  '.OjjjJJJqJJJqJJJqJJjJEpTTtEJjJJJqJJJqjjjqjjjjjO.',
+  '.OjjjJJJqJJJqJJJqJJJJJpTTtJJqJJJqJJJqjjjqjjjjjO.',
+  'OjjjjJJJqJJJqJJJqJJJjpTTTttjqJJJqJJJqjjjqjjjjjjO',
+  'OjjjjJJJqJJJqJJJqJJJqpTTTttJqJJJqJJJqjjjqjjjjjjO',
+  'OjjjjJJJqJJJqJJJqJJJqpTTTttJqJJJqJJJqjjjqjjjjjjO',
+]
