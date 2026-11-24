@@ -1,8 +1,17 @@
-# Pixel Terminal Portfolio
+# Gianmarco Iparraguirre — Portfolio
 
-A Vite + React + TypeScript portfolio with a pixel-art server-room hero.
+Live site: https://giparraguirre.github.io
 
-## Run it
+A pixel-art, terminal-themed personal portfolio built with Vite, React, and TypeScript. It showcases my software engineering projects, skills, and contact links.
+
+## Built with
+
+- React + TypeScript
+- Vite
+- Custom pixel-art SVG icons and hero scene (no image assets)
+- GitHub Actions + GitHub Pages for automatic deployment
+
+## Run locally
 
 ```bash
 npm install
@@ -11,12 +20,12 @@ npm run build    # production build in dist/
 npm run preview  # serve the production build
 ```
 
-## Make it yours
+## Project structure
 
-- **Content:** edit `src/data.ts` (name, school, projects, skills, links). Anything in `[BRACKETS]` is a placeholder.
-- **Colors and fonts:** the tokens at the top of `src/styles.css`.
-- **Hero scene:** `src/components/ServerRoom.tsx` (a 160×80 SVG grid; one unit = one pixel).
+- `src/data.ts`: site content (projects, skills, links)
+- `src/components/`: UI components, including the pixel-art hero scene
+- `src/styles.css`: colors and font tokens
 
-## Deploy
+## Deployment
 
-`dist/` is static and uses relative paths, so it works on GitHub Pages, Netlify or Vercel as is.
+Every push to `main` runs the workflow in `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages.
